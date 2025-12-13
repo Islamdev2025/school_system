@@ -11,7 +11,6 @@ const ContactSection = ({ t, lang }) => {
           </h2>
           <div className="space-y-5">
             {[
-              { icon: Mail, title: 'Email', value: 'school82@example.kg', color: 'from-blue-500 to-cyan-500' },
               { icon: Phone, title: t.feedback.phone, value: '+996 706‒51‒65‒06', color: 'from-purple-500 to-pink-500' },
               { icon: Instagram, title: 'Instagram', value: '@82_school_official', color: 'from-pink-500 to-rose-500' },
               { icon: Music, title: 'TikTok', value: '@82schoolbish', color: 'from-gray-700 to-gray-900' }

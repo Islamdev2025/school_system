@@ -3,10 +3,10 @@ import { Users, BookOpen, Award } from 'lucide-react';
 
 const HeroSection = ({ t, setActiveSection }) => {
   const stats = [
-    { icon: Users, value: '5000+', label: t.stats.students, color: 'from-blue-500 to-cyan-500' },
-    { icon: BookOpen, value: '80+', label: t.stats.teachers, color: 'from-purple-500 to-pink-500' },
+    { icon: Users, value: '5500+', label: t.stats.students, color: 'from-blue-500 to-cyan-500' },
+    { icon: BookOpen, value: '130+', label: t.stats.teachers, color: 'from-purple-500 to-pink-500' },
     { icon: Award, value: '27', label: t.stats.years, color: 'from-orange-500 to-red-500' },
-    { icon: Award, value: '150+', label: t.stats.awards, color: 'from-green-500 to-emerald-500' }
+    { icon: Award, value: '1000+', label: t.stats.awards, color: 'from-green-500 to-emerald-500' }
   ];
 
   return (

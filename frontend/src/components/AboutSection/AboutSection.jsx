@@ -11,9 +11,9 @@ const AboutSection = ({ t, lang }) => {
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed text-gray-700">
-              {lang === 'kgz' && 'Биздин мектеп 1998-жылы негизделип, 27 жылдан ашык убакыттан бери сапаттуу билим берүү менен алектенип келет. Биз заманбап билим берүү ыкмаларын колдонуу менен окуучуларга ар тараптуу өнүгүү мүмкүнчүлүгүн түзөбүз.'}
-              {lang === 'eng' && 'Our school was founded in 1998 and has been providing quality education for over 27 years. We use modern teaching methods to create comprehensive development opportunities for our students.'}
-              {lang === 'ru' && 'Наша школа основана в 1998 году и более 27 лет занимается качественным образованием. Мы используем современные методы обучения, создавая возможности для всестороннего развития учащихся.'}
+              {lang === 'kgz' && 'Мектептин жаңы имараты 2015-жылы ачылган. Курулуш жана жабдуу иштери бир нече жыл бою Казакстан тараптын колдоосу менен жүргүзүлгөн. Расмий ачылыш аземине президент катышкан.2022-жылы мектепке кошумча имарат пайдаланууга берилген. Ал музыкалык, көркөм чыгармачылык жана башка ийримдер үчүн атайын орундар менен камсыздалган.'}
+              {lang === 'eng' && 'The new school building was opened in 2015. Construction and equipment were carried out over several years with the support of the Kazakh side. The official opening ceremony was attended by the president.In 2022, an additional building was put into operation, providing facilities for music, art, and other creative clubs.'}
+              {lang === 'ru' && 'Новое здание школы было открыто в 2015 году. Строительство и оснащение осуществлялись в течение нескольких лет при поддержке казахстанской стороны. В официальной церемонии открытия принял участие президент.В 2022 году было введено в эксплуатацию дополнительное здание школы, предназначенное для музыкальных, художественных и других творческих кружков.'}
             </p>
             <div className="flex items-center space-x-4 p-6 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-2xl shadow-lg">
               <Award className="w-16 h-16 text-blue-600" />
