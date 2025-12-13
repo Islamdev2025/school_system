@@ -1,0 +1,83 @@
+.sectiongo {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 40px 25px;
+    border-radius: 15px;
+    font-family: 'Arial', sans-serif;
+    color: #003366;
+    position: relative;
+    overflow: hidden;
+    background: rgba(10, 220, 244, 0.9);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://images.unsplash.com/photo-1596496051266-2fc93a3ec080?auto=format&fit=crop&w=800&q=80") no-repeat center center;
+    background-size: cover;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+.sectiongo h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+.sectiongo form {
+    position: relative;
+    z-index: 1;
+}
+
+.sectiongo form input,
+.sectiongo form button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #d60000;
+    box-sizing: border-box;
+}
+
+.sectiongo form button {
+    background: #d60000;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sectiongo form button:hover {
+    background: #b50000;
+}
+
+.error-text {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 720px) {
+    .sectiongo {
+        padding: 25px 15px;
+    }
+
+    .sectiongo h2 {
+        font-size: 22px;
+    }
+
+    .sectiongo form input,
+    .sectiongo form button {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
